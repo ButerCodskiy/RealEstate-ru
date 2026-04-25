@@ -1,0 +1,44 @@
+# === Internal Planning Documents ===
+PLAN.md
+
+# === Data & Large Artifacts ===
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.cbm
+*.zip
+csv_audit.txt
+
+# === Figures (Tracked for README Visuals) ===
+!reports/figures/*.png
+!reports/figures/*.jpg
+!reports/figures/.gitkeep
+
+# === Experiment Artifacts & Logs ===
+optuna_studies/
+mlruns/
+*.log
+
+# === Environment & Builds ===
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# === Jupyter Drafts ===
+.ipynb_checkpoints/
+houseprices_analysis.ipynb
+
+# === OS & Tooling ===
+.DS_Store
+Thumbs.db
+catboost_info/

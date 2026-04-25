@@ -1,0 +1,20 @@
+[project]
+name = "ml-practice"
+version = "0.1.0"
+description = "ML Practice - House Prices Forecasting"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "catboost>=1.2.10",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "optuna>=5.0.0",
+    "pandas",
+    "pyarrow>=25.0.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "shap>=0.51.0",
+    "statsmodels>=0.15.0",
+]
